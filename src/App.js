@@ -7,6 +7,9 @@ import { Count } from './Component/Count';
 import { Copycounter } from './Component/Copycounter';
 import { Greet } from './Component/Greet';
 import { CarComp } from './Component/CarComp';
+import { UseRefExample } from './Componets/UseRefExample';
+import { Copy } from './Componets/Copy';
+import { Copy2 } from './Componets/Copy2';
 
 
 function App() {
@@ -46,8 +49,12 @@ function App() {
   <Greet firstName={iname} name2={SecondName2}  name3={Three2}/>
   <Greet firstName={yname} name2={SecondName3}  name3={Three3}/>
   <Greet firstName={kname} name2={SecondName4}  name3={Three4}/> */}
-  <CarComp  Car={car1} Car1={Model2} Car2={Color3} Car3={tyre4}/>  <br/>
-  <CarComp  Car={Car3} Car1={Model3} Car2={Color2} Car3={tyre3}/>
+  {/* <CarComp  Car={car1} Car1={Model2} Car2={Color3} Car3={tyre4}/>  <br/>
+  <CarComp  Car={Car3} Car1={Model3} Car2={Color2} Car3={tyre3}/> */}
+
+  {/* <UseRefExample/> */}
+  {/* <Copy/> */}
+  <Copy2/>
  
     </div>
   );
